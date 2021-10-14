@@ -17,7 +17,7 @@ import java.util.Collections;
 public class DMVSpeedComparison {
 
   public static void main(String[] args) throws IOException {
-    Pair<Vector<Assertion>, Vector<Assertion>> assertionPair = AssertionReader.readAssertion("power-2d-10001.txt", "permanent_assertion_2d.txt");
+    Pair<Vector<Assertion>, Vector<Assertion>> assertionPair = AssertionReader.readAssertion("DMV/assertion_dmv.txt", "DMV/permanent_assertion_2d.txt");
     Vector<Assertion> assertions = assertionPair.getLeft();
     Vector<Assertion> permanent_assertions = assertionPair.getRight();
 
