@@ -193,6 +193,8 @@ public class Isomer implements SelectivityLearning {
     int n = all_assertions.size();
     int m = nodes.size();
     variableCnt = nodes.size();
+    
+    System.out.println("Model Size: " + m);
 
     double[][] A = new double[n][m];
     double[] b = new double[n];
